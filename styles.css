@@ -1,0 +1,125 @@
+body {
+     background-image: linear-gradient(to right, #4c6c81, #0d0f11);
+     margin: 0;
+     
+}
+
+li {
+    padding: 10px;
+    font-size: 2rem;
+  }
+  
+
+.menu {
+    background-image: linear-gradient(to right, #3883b4, #6299d1);
+    color: #FEFEFE;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+    margin: 0 auto;
+  }
+  
+.menu-images {
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+  }
+  
+.menu-images img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+.menu-list {
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+  }  
+
+.fa-linkedin {
+    font-size: 3rem;
+    padding: 1rem;
+    color: #000000;
+    transition: color 0.9s ease-out ;
+    
+}
+
+.fa-linkedin:hover {
+    font-size: 3rem;
+    padding: 1rem;
+    color: #3b3838;
+    transition: color 0.8s ease-out ;
+    
+}
+
+.fa-github {
+    font-size: 3rem;
+    padding: 1rem;
+    color: #000000;
+    transition: color 0.9s ease-out ;
+
+}
+
+.fa-github:hover {
+    font-size: 3rem;
+    padding: 1rem;
+    color: #3b3838;
+    transition: color 0.8s ease-out ;
+}
+
+.fa-whatsapp{
+    font-size: 3rem;
+    padding: 1rem;
+    color: #000000;
+    transition: color 0.9s ease-out ;
+
+}
+
+.fa-whatsapp:hover {
+    font-size: 3rem;
+    padding: 1rem;
+    color: #3b3838;
+    transition: color 0.8s ease-out ;
+}
+.icons{
+text-decoration: none;
+
+}
+
+.items {
+    display: flex;
+    text-justify: left;
+    justify-content: space-between;
+    
+  
+    }
+
+.lista {
+    flex-basis: 30%;
+    float: right;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #FEFEFE;
+}
+
+.title {
+    background-color: rgb(93, 171, 216);
+    margin-top: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+img {
+    width: 18%;
+    margin-right: 10rem;
+    height: auto;
+
+  }
+
+
+
+  
