@@ -8,7 +8,7 @@ li {
     font-size: 2rem;
 }
 
-.menu {
+.navbar {
     background-image: linear-gradient(to right, #3883b4, #6299d1);
     color: #FEFEFE;
     display: flex;
@@ -18,22 +18,8 @@ li {
     margin: 0 auto;
 }
 
-.menu-images {
-    display: flex;
-    align-items: center;
-    margin: 1rem;
-}
-
-.menu-images img {
-    width: 50px;
-    height: 50px;
-    margin-right: 10px;
-}
-
-.menu-list {
-    font-size: 18px;
-    font-weight: bold;
-    display: flex;
+a {
+    text-decoration: none;
 }
 
 .fa-linkedin {
@@ -46,7 +32,7 @@ li {
 .fa-linkedin:hover {
     font-size: 3rem;
     padding: 1rem;
-    color: #3b3838;
+    color: #fdf6f6;
     transition: color 0.8s ease-out;
 }
 
@@ -60,7 +46,7 @@ li {
 .fa-github:hover {
     font-size: 3rem;
     padding: 1rem;
-    color: #3b3838;
+    color: #fdf6f6;
     transition: color 0.8s ease-out;
 }
 
@@ -74,12 +60,8 @@ li {
 .fa-whatsapp:hover {
     font-size: 3rem;
     padding: 1rem;
-    color: #3b3838;
+    color: #fdf6f6;
     transition: color 0.8s ease-out;
-}
-
-.icons {
-    text-decoration: none;
 }
 
 .items {
@@ -113,3 +95,12 @@ img {
     margin-right: 10rem;
     height: auto;
 }
+
+.lista1 {
+    list-style: none;
+    text-decoration: none;
+    color: #FEFEFE;
+    font-size: 2rem;
+}
+
+.lista1:hover {}
