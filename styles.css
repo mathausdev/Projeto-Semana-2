@@ -33,7 +33,7 @@ a {
 .fa-linkedin:hover {
     font-size: 3rem;
     padding: 1rem;
-    color: #0e76a8;
+    color: #ffffff;
     transition: color 0.8s ease-out;
 }
 
@@ -61,7 +61,7 @@ a {
 .fa-whatsapp:hover {
     font-size: 3rem;
     padding: 1rem;
-    color: #0a9b22;
+    color: #ffffff;
     transition: color 0.8s ease-out;
 }
 
@@ -84,7 +84,11 @@ a {
 }
 
 .corpo-texto {
+    font-size: 1.3rem;
     white-space: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Serif Ahom', serif;
+    font-family: 'PT Serif', serif;
 }
 
 .title {
@@ -96,8 +100,8 @@ a {
 }
 
 .imagemeu {
-    width: 200px;
-    height: 200px;
+    width: 251px;
+    height: 251px;
     margin-right: 20px;
 }
 
@@ -154,4 +158,39 @@ footer {
     color: #fff;
     margin-left: 20px;
     text-decoration: none;
+}
+
+
+/* Parte das Soft Skills */
+
+.container3 {
+    text-align: center;
+    margin-top: 10rem;
+    color: #FEFEFE;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.menuskils {
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fa-html5 {
+    font-size: 4.5rem;
+    color: rgb(255, 145, 0);
+}
+
+.fa-css3-alt {
+    font-size: 4.5rem;
+    color: #6299d1;
+}
+
+.fa-js {
+    font-size: 4.5rem;
+    color: yellow;
+}
+
+.fa-bootstrap {
+    font-size: 4.5rem;
+    color: purple;
 }
