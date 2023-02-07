@@ -194,3 +194,12 @@ footer {
     font-size: 4.5rem;
     color: purple;
 }
+
+
+/* Parte de Contato */
+
+.cv {
+    width: 50%;
+    margin: 3rem auto;
+    text-align: center;
+}
