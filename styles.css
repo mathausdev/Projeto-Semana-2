@@ -9,7 +9,7 @@ li {
 }
 
 .navbar {
-    background-image: linear-gradient(to right, #3883b4, #6299d1);
+    background-image: linear-gradient(to left, #3154b4, #6299d1);
     color: #FEFEFE;
     display: flex;
     align-items: center;
@@ -20,6 +20,7 @@ li {
 
 a {
     text-decoration: none;
+    color: #000000;
 }
 
 .fa-linkedin {
@@ -32,7 +33,7 @@ a {
 .fa-linkedin:hover {
     font-size: 3rem;
     padding: 1rem;
-    color: #fdf6f6;
+    color: #0e76a8;
     transition: color 0.8s ease-out;
 }
 
@@ -60,7 +61,7 @@ a {
 .fa-whatsapp:hover {
     font-size: 3rem;
     padding: 1rem;
-    color: #fdf6f6;
+    color: #0a9b22;
     transition: color 0.8s ease-out;
 }
 
@@ -78,6 +79,14 @@ a {
     color: #FEFEFE;
 }
 
+.corpo-foto {
+    display: flex;
+}
+
+.corpo-texto {
+    white-space: normal;
+}
+
 .title {
     background-color: rgb(93, 171, 216);
     margin-top: 0;
@@ -86,14 +95,14 @@ a {
     flex-direction: row;
 }
 
-.remove-padding {
-    padding: 0;
+.imagemeu {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
 }
 
-img {
-    width: 18%;
-    margin-right: 10rem;
-    height: auto;
+.remove-padding {
+    padding: 0;
 }
 
 .lista1 {
@@ -103,4 +112,46 @@ img {
     font-size: 2rem;
 }
 
-.lista1:hover {}
+.lista1:hover {
+    scale: 1.1;
+    transition: color 0.8s ease-out;
+    color: #fdf6f6;
+}
+
+strong {
+    font-size: 1.3rem;
+}
+
+.footer1 {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.footer-left p {
+    margin: auto;
+    display: inline-block;
+    vertical-align: central;
+    margin-right: auto;
+}
+
+.footer-right nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-right a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+}
