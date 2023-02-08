@@ -99,6 +99,48 @@ a {
     flex-direction: row;
 }
 
+.list-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.list-item img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.list-item img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.titleprojetos {
+    text-align: center;
+    color: #FEFEFE;
+}
+
+.pcolor {
+    color: #FEFEFE;
+}
+
+.projetos {
+    background-color: #333;
+    border: 0.5ch solid black;
+    padding: 10px;
+    text-align: center;
+    width: 60rem;
+    margin: 5rem auto;
+}
+
 .imagemeu {
     width: 251px;
     height: 251px;
